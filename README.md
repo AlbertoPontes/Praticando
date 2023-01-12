@@ -1,1 +1,1 @@
-Olá, aqui guardo alguns exercícios HTML
+Olá, aqui guardo alguns exercícios HTML.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <br>
+    <form action="" id="meu-form">
+            <h2>
+                Entre em contato
+            </h2>
+            <strong>
+                Assunto:
+            </strong>
+            <input type="text" list="servicedata" placeholder="Tipo de Serviço">
+            <datalist id="servicedata">
+                <option>Formatação</option>
+                <option>Limpeza</option>
+                <option>Instalação de programas</option>
+            </datalist>
+        <br>
+        <br>
+        <fieldset form="Seu nome">
+            <legend>Nome Completo</legend>
+            <input type="text" value="Seu nome" style="color: silver;">
+        </fieldset>
+        <fieldset form="e-mail">
+            <legend>E-mail</legend>
+            <input type="text" value="email@seudominio.com" style="color: silver;">
+        </fieldset>
+        <fieldset form="message">
+            <legend>Mensagem</legend>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="checkbox" name="Checkbox" id="CB"> Aceito receber novidades por e-mail 
+    </form>
+        <br>
+        <br>
+        <button type="submit" form="meu-form">Enviar</button>
+</body>
+</html>
